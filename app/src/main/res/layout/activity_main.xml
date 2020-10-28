@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/subject_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tipo1"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/tipografia"
+                    android:text="@string/DG1_T_s1_s"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/leng1"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/lenguaje"
+                    android:text="@string/DG1_LTD_s1_s"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/foto1"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/audiovisuales"
+                    android:text="@string/DG1_FMA_s1_s"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dis1"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/diseño_basico"
+                    android:text="@string/DG1_DB_s1_s"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/empr2"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/empresa"
+                    android:text="@string/DG1_DE_s1_s"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/foto2"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/audiovisuales"
+                    android:text="@string/DG1_FMA_s1_s"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/tipo2"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/tipografia"
+                    android:text="@string/DG1_T_s1_s"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fund2"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/cientifico"
+                    android:text="@string/DG1_FCD_s1_s"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/dis2"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/diseño_basico"
+                    android:text="@string/DG1_DB_s1_s"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="1.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/recreo"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/subject_background"
+                android:backgroundTint="@color/colorAccent"
+                android:gravity="center"
+                android:text="@string/breakTime"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/leng2"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/lenguaje"
+                    android:text="@string/DG1_LTD_s1_s"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:clickable="true"
+                    android:id="@+id/empr1"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/empresa"
+                    android:text="@string/DG1_DE_s1_s"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/leng3"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/lenguaje"
+                    android:text="@string/DG1_LTD_s1_s"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/fund1"
+                    android:clickable="true"
+                    android:layout_margin="1.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/cientifico"
+                    android:text="@string/DG1_FCD_s1_s"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/empr3"
+                        android:clickable="true"
+                        android:layout_margin="1.5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/subject_background"
+                        android:backgroundTint="@color/empresa"
+                        android:text="@string/DG1_DE_s1_s"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_margin="1.5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tipo3"
+                        android:clickable="true"
+                        android:layout_margin="1.5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/subject_background"
+                        android:backgroundTint="@color/tipografia"
+                        android:text="@string/DG1_T_s1_s"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dis3"
+                        android:clickable="true"
+                        android:layout_margin="1.5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/subject_background"
+                        android:backgroundTint="@color/diseño_basico"
+                        android:text="@string/DG1_DB_s1_s"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_margin="1.5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/addExam"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/subject_background"
+                    android:backgroundTint="@color/examColor"
+                    android:layout_margin="40dp"
+                    android:text="@string/add_exam"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:padding="6dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

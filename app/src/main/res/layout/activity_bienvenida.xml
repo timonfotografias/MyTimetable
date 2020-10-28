@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.timonfotografias.mytimetable.bienvenida"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textoBienvenida"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:paddingBottom="15dp"
+        android:text="Bienvenido a MiHorario EASDA, gracias por descargar la aplicación, espero que te sea útil. Para continuar, pulsa el botón a continuación. Si en algún momento tienes alguna duda o sugerencia, puedes comunicarlo en area de comentarios de la página de Play Store. ¡Suerte en clase!"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/continuarBienvenida"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textoBienvenida"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:text="Continuar" />
+
+    <Button
+        android:id="@+id/storeBienvenida"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/continuarBienvenida"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:text="Ver más información" />
+
+</RelativeLayout>

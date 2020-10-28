@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1032581463817",
+    "firebase_url": "https://mytimetable-858ef.firebaseio.com",
+    "project_id": "mytimetable-858ef",
+    "storage_bucket": "mytimetable-858ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032581463817:android:973a706e28184be5945dd8",
+        "android_client_info": {
+          "package_name": "com.timonfotografias.mytimetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032581463817-sff3d8pgdpv30kdv5nccr3fg634e4l9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.timonfotografias.mytimetable",
+            "certificate_hash": "f2058561b3226e27f954f9884af6011cc34aa58d"
+          }
+        },
+        {
+          "client_id": "1032581463817-mnrmam7rp35b34t0apifr8km9pfoktem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4IZAiivCadDvyuaW_JXme28eJypo88Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032581463817-mnrmam7rp35b34t0apifr8km9pfoktem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

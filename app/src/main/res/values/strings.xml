@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Mi Horario</string>
+    <string name="appwidget_text">Prueba</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="add_exam">Añadir Examen</string>
+    <string name="add_exam_s">Examen</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="breakTime">Recreo</string>
+
+    <string name="DG1_T_s1">Tipografía</string>
+    <string name="DG1_T_s1_s">Tipografía</string>
+
+    <string name="DG1_LTD_s1">Lenguaje y Técnicas Audiovisuales de representación</string>
+    <string name="DG1_LTD_s1_s">T.I.C.</string>
+
+    <string name="DG1_DE_s1">Diseño y empresa</string>
+    <string name="DG1_DE_s1_s">Empresa</string>
+
+    <string name="DG1_FMA_s1">Fotografía y Medios Audiovisuales</string>
+    <string name="DG1_FMA_s1_s">Foto</string>
+
+    <string name="DG1_FCD_s1">Fundamentos Científicos del Diseño gráfico</string>
+    <string name="DG1_FCD_s1_s">Fundamentos</string>
+
+    <string name="DG1_DB_s1">Diseño básico</string>
+    <string name="DG1_DB_s1_s">Diseño</string>
+
+    <string name="DG1_PB_s2">Proyectos Básicos</string>
+    <string name="DG1_PB_s2_s">PDG</string>
+
+    <string name="DG1_DTG_s2">Dibujo y Técnicas Gráficas</string>
+    <string name="DG1_DTG_s2_s">DTG</string>
+
+    <string name="DG1_EV_s2">Espacio y Volumen</string>
+    <string name="DG1_EV_s2_s">EV</string>
+
+    <string name="DG1_FHD_s2">Fundamentos Históricos del Diseño</string>
+    <string name="DG1_FHD_s2_s">His</string>
+    <string name="DG1_FHDT_s2">Tutoría de FHD</string>
+    <string name="DG1_FHDT_s2_s">Tutoría</string>
+
+
+    <string name="DG1_SR_s2">Sistmas de Representación</string>
+    <string name="DG1_SR_s2_s">SR</string>
+
+    <string name="ilu">Ilu</string>
+
+    <string name="changelog">
+        <![CDATA[
+        <ol type="A">
+            <li>Corregido el número de aula de algunas asignaturas.</li>
+            <li>Ya sale la información del grupo X al seleccionar las asignaturas desdobladas.</li>
+            <li>Trabajando en opción de ver sólo la información del grupo X al seleccionar las asignaturas.</li>
+        </ol>
+        ]]>
+    </string>
+
+</resources>

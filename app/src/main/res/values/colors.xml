@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#FAFAFA</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="boton">#67ACCC</color>
+
+    <color name="tipografia">#00BCD4</color>
+    <color name="lenguaje">#FFEB3B</color>
+    <color name="empresa">#4CAF50</color>
+    <color name="audiovisuales">#8BC34A</color>
+    <color name="cientifico">#03A9F4</color>
+    <color name="diseño_basico">#009688</color>
+
+    <color name="PB">#60C3A5</color>
+    <color name="DGT">#4F65AF</color>
+    <color name="EV">#F37F80</color>
+    <color name="FHD">#7BC689</color>
+    <color name="FHDT">#797BC689</color>
+    <color name="SR">#F36E2A</color>
+
+    <color name="backgroundColor">#3C3C3C</color>
+
+    <color name="examColor">#EB7AF8</color>
+
+
+</resources>
